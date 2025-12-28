@@ -12,13 +12,12 @@ const taskRoutes = require("./routes/taskRoutes");
 const app = express();
 app.use(
   cors({
-    origin: ["https://cosmic-cucurucho-619033.netlify.app"],
+    origin: ["https://auth-dashboard1.netlify.app"],
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"],
     credentials: true,
   })
 );
-app.options("*", cors());
 
 app.use(express.json()); // <-- THIS MUST BE HERE BEFORE ROUTES
 

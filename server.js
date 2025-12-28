@@ -13,7 +13,7 @@ const app = express();
 app.use(
   cors({
     origin: ["https://auth-dashboard1.netlify.app"],
-    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    methods: ["GET", "POST", "PUT", "DELETE","PATCH","OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"],
     credentials: true,
   })

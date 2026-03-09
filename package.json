@@ -21,6 +21,7 @@
     "recharts": "^3.4.1"
   },
   "devDependencies": {
+    "concurrently": "^9.2.1",
     "nodemon": "^3.1.11"
   },
   "description": ""
